@@ -1,0 +1,24 @@
+.search-results-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    row-gap: 1.25rem;
+}
+
+.bordered-container {
+    border-radius: 3px;
+    padding: 0.5rem;
+    border: 1px solid #000;
+}
+
+.file-attach-container {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.file-attach-container label {
+    padding: 0.3rem 1.2rem;
+    background-color: #D9D9D9;
+}

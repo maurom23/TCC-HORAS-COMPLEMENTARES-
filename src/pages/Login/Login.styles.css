@@ -1,0 +1,8 @@
+.login-page {
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 40%;
+}

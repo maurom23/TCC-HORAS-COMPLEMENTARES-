@@ -1,0 +1,7 @@
+.chatlist-page {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    row-gap: 1rem;
+}

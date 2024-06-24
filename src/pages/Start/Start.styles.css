@@ -1,0 +1,32 @@
+.start-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90vh 10vh;
+}
+
+.logo-area {
+    display: grid;
+    place-content: center;
+    background-image: url('/src/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo-area > span {
+    display: inline;
+}
+
+.logo-area > span > * {
+    display: inline;
+}
+
+.btn-group {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 40%;
+    column-gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

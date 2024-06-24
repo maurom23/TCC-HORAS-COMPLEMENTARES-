@@ -1,0 +1,13 @@
+.chat-page {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    row-gap: 1rem;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
